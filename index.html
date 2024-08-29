@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindustan Ke Kishan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hindustan Ke Kishan</h1>
+            <p>Your source for top-quality agricultural tools</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#account" class="account-icon">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Hindustan Ke Kishan</h2>
+            <p>Your trusted partner for top-quality tools and equipment.</p>
+            <a href="#products" class="cta-button">Explore Products</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide the highest quality tools designed for professionals. Our products are reliable, durable, and innovative, ensuring you have the best tools for your job.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="Image1.jfif" alt="Tool 1">
+                    <h3>Tool 1</h3>
+                    <p>High-performance tool designed for heavy-duty tasks.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="Image2.jfif" alt="Tool 2">
+                    <h3>Tool 2</h3>
+                    <p>Reliable tool for precision and accuracy.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hindustan Ke Kishan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Side Category Popup -->
+    <div id="category-popup" class="popup">
+        <button class="close-popup">X</button>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#" data-category="german-tools">German Tools</a></li>
+            <li><a href="#" data-category="power-weeders">Power Weeders</a></li>
+            <li><a href="#" data-category="brush-cutters">Brush Cutters</a></li>
+            <li><a href="#" data-category="grass-cutting">Grass Cutting Solutions</a></li>
+            <li><a href="#" data-category="seed-sowing">Seed Sowing</a></li>
+            <li><a href="#" data-category="earth-augers">Earth Augers</a></li>
+            <li><a href="#" data-category="water-solutions">Water Solutions</a></li>
+        </ul>
+    </div>
+
+    <!-- Buy Now Popup -->
+    <div id="buy-now-popup" class="popup">
+        <button class="close-popup">X</button>
+        <h2>Purchase Details</h2>
+        <form>
+            <label for="customer-name">Name:</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+            <label for="mobile">Mobile No.:</label>
+            <input type="text" id="mobile" name="mobile" required>
+            <label for="address1">Address 1:</label>
+            <input type="text" id="address1" name="address1" required>
+            <label for="address2">Address 2:</label>
+            <input type="text" id="address2" name="address2">
+            <label for="pincode">Pincode:</label>
+            <input type="text" id="pincode" name="pincode" required>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Sign Up/Sign In Popup -->
+    <div id="auth-popup" class="popup">
+        <button class="close-popup">X</button>
+        <h2>Sign Up / Sign In</h2>
+        <form>
+            <label for="auth-email">Email:</label>
+            <input type="email" id="auth-email" name="auth-email" required>
+            <label for="auth-password">Password:</label>
+            <input type="password" id="auth-password" name="auth-password" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
